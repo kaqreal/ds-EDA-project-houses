@@ -1,44 +1,51 @@
-# ds-project-template
+# <span style="color:green">__Data Science Bootcamp__
 
-Template for creating ds simple projects
+## <span style="color:black">__Project__: Exploratory Data Analysis with Python and SQL
 
-## Requirements
+---
+## <span style="color:navy">__Context__
 
-- pyenv
-- python==3.9.8
+<span style="color:dark_grey">
 
-## Setup
+Buying or selling a house is mostly an emotional decision that involves both personal experiences and good opportunities at the right time, but it has to be an informed decision to avoid losing money and headaches in the future. That's what this EDA project is all about, analyzing data to provide the best insights and recommendations for the stakeholders involved, both sellers and buyers, to guarantee their satisfaction at the end of the process. 
 
-One of the first steps when starting any data science project is to create a virtual environment. For this project you have to create this environment from scratch yourself. However, you should be already familiar with the commands you will need to do so. The general workflow consists of... 
+> ***"Buyers decide in the first eight seconds of seeing a home if they’re interested in buying it. Get out of your car, walk in their shoes and see what they see within the first eight seconds."*** – Barbara Corcoran (American businesswoman, Investor, Shark Tank personality, founder of The Corcoran Group - successful real estate brokerage in New York City)
 
-* setting the python version locally to 3.9.8
-* creating a virtual environment using the `venv` module
-* activating your newly created environment 
-* upgrading `pip` (This step is not absolutely necessary, but will save you trouble when installing some packages.)
-* installing the required packages via `pip`
+Here I aim to put the clients' best interests first to maximize their investments, by providing the best cost-benefit balance and recommend them the best properties available in the market in the King County/Seattle - USA.
 
-At the end, you want to make sure that people who are interested in your project can create an identical environment on their own computer in order to be able to run your code without running into errors. Therefore you can create a `requirements file` and add it to your repository. You can create such a file by running the following command: 
+**Source:** King County Housing Data, containing information about home sales in King County (USA).
 
-```bash
-pip freeze > requirements.txt
-```
+**Task:** 
+* Choose a stakeholder from the list below
+* Generate at least 3 insights regarding the overall data
+* Provide at least 3 recommendations of houses for the chosen stakeholder
+* Prepare a business presentation for the stakeholder
 
-*Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
+**Technical:**
+* Prepare a Jupyter Notebook with the data processing and analysis for this project
+* Provide a README.md file 
+* Generate a requirements.txt file
 
-### Unit testing (Optional)
 
-If you write python scripts for your data processing methods, you can also write unit tests. In order to run the tests execute in terminal:
+## **EDA File**
 
-```bash
-pytest
-```
+Please take a look at the [EDA Project File](/Users/karine_real/Neue_Fische/ds-eda-project-houses/EDA.ipynb).
 
-This command will execute all the functions in your project that start with the word **test**.
+It contains all of the process that the data went through and the personalized recommendation for the chosen stakeholder: "Jennifer Montgomery" (High budget, wants to show off, timing within a month, waterfront, renovated, high grades year).
+
+The data was extracted from a SQL database, was cleaned, adjusted, filtered, plotted and analysed. Some insights about the data were acquired and, finally, houses recommendations for the client were made.
+
+There, it is possible to see how the data was treated, analysed and understood. It could also be used to do further analysis, personalize it to another client and so on.
+
+## **Requirements**
+
 
 This repo contains a requirements.txt file with a list of all the packages and dependencies you will need. Before you install the virtual environment, make sure to install postgresql if you haven't done it before.
 
+```
 brew update
 brew install postgresql
+```
 
 In order to install the environment you can use the following commands:
 
@@ -48,4 +55,13 @@ python -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
+```
+
+See all requirements [here](/Users/karine_real/Neue_Fische/ds-eda-project-houses/requirements.txt)
+
+
+Command to create a requirements file at the end of the project:
+
+```
+pip freeze > requirements.txt
 ```

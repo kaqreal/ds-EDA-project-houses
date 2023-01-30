@@ -29,13 +29,13 @@ Here I aim to put the clients' best interests first to maximize their investment
 
 ## **EDA File**
 
-Please take a look at the [EDA Project File](ds-eda-project-houses/EDA.ipynb).
+Please take a look at the [EDA Project File](https://github.com/kaqreal/ds-eda-project-houses/blob/bbb54e61eb15a3122182a99bc1f094538c7e8776/EDA.ipynb).
 
 It contains all of the process that the data went through and the personalized recommendation for the chosen stakeholder: "Jennifer Montgomery" (High budget, wants to show off, timing within a month, waterfront, renovated, high grades year).
 
-The data was extracted from a SQL database, was cleaned, adjusted, filtered, plotted and analysed. Some insights about the data were acquired and, finally, houses recommendations for the client were made.
+The data was extracted from a SQL database, was cleaned, adjusted, filtered, plotted and analyzed. Some insights about the data were acquired and, finally, houses recommendations for the client were made.
 
-There, it is possible to see how the data was treated, analysed and understood. It could also be used to do further analysis, personalize it to another client and so on.
+There, it is possible to see how the data was treated, analyzed and understood. It could also be used to do further analysis, personalize it to another client and so on.
 
 ## **Requirements**
 
@@ -57,7 +57,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-See all requirements [here](ds-eda-project-houses/requirements.txt)
+See all requirements [here](https://github.com/kaqreal/ds-eda-project-houses/blob/f3d3e1c5273f123a5c0d64af4fbab8ab2c2f37d5/requirements.txt)
 
 
 Command to create a requirements file at the end of the project:

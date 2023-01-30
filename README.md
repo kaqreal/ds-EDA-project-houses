@@ -29,7 +29,7 @@ Here I aim to put the clients' best interests first to maximize their investment
 
 ## **EDA File**
 
-Please take a look at the [EDA Project File](/Users/karine_real/Neue_Fische/ds-eda-project-houses/EDA.ipynb).
+Please take a look at the [EDA Project File](ds-eda-project-houses/EDA.ipynb).
 
 It contains all of the process that the data went through and the personalized recommendation for the chosen stakeholder: "Jennifer Montgomery" (High budget, wants to show off, timing within a month, waterfront, renovated, high grades year).
 
@@ -57,7 +57,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-See all requirements [here](/Users/karine_real/Neue_Fische/ds-eda-project-houses/requirements.txt)
+See all requirements [here](ds-eda-project-houses/requirements.txt)
 
 
 Command to create a requirements file at the end of the project:

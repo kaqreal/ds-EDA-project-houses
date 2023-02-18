@@ -21,7 +21,7 @@ Here I aim to put the clients' best interests first to maximize their investment
 * Provide at least 3 recommendations of houses for the chosen stakeholder
 * Prepare a business presentation for the stakeholder
 
-## **EDA File**
+## **Project Files**
 
 Please take a look at the [EDA Project File](EDA.ipynb).
 

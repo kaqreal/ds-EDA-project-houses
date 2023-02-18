@@ -21,21 +21,21 @@ Here I aim to put the clients' best interests first to maximize their investment
 * Provide at least 3 recommendations of houses for the chosen stakeholder
 * Prepare a business presentation for the stakeholder
 
-**Technical:**
-* Prepare a Jupyter Notebook with the data processing and analysis for this project
-* Provide a README.md file 
-* Generate a requirements.txt file
-
-
 ## **EDA File**
 
-Please take a look at the [EDA Project File](https://github.com/kaqreal/ds-eda-project-houses/blob/bbb54e61eb15a3122182a99bc1f094538c7e8776/EDA.ipynb).
+Please take a look at the [EDA Project File](EDA.ipynb).
 
 It contains all of the process that the data went through and the personalized recommendation for the chosen stakeholder: "Jennifer Montgomery" (High budget, wants to show off, timing within a month, waterfront, renovated, high grades year).
 
 The data was extracted from a SQL database, was cleaned, adjusted, filtered, plotted and analyzed. Some insights about the data were acquired and, finally, houses recommendations for the client were made.
 
 There, it is possible to see how the data was treated, analyzed and understood. It could also be used to do further analysis, personalize it to another client and so on.
+
+**Files of the Project:**
+1. [EDA Notebook](EDA.ipynb)
+2. [Assignment](assignment.md)
+3. [Presentation Slides](Properties.pdf)
+4. [Properties recommended](table_recommendations.png)
 
 ## **Requirements**
 
